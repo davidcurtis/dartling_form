@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Dartling Form</title>
+    <link rel="components" href="component/member_form.html">
+    <link rel="stylesheet" href="css/form.css"/>
+  </head> 
+ 
+  <body>   
+          <center><img src="../img/dartling.png"/> </center>
+         <center> <h2> Dartling Form</h2></center>
+     <center> <member-form members ="{{ members }}"></member-form></center>
+     
+     
+     <script type="application/dart" src="dartling_form.dart"></script>
+    <!-- for this next line to work, your pubspec.yaml file must have a dependency on 'browser' -->
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>

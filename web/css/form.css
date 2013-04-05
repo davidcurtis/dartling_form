@@ -1,0 +1,117 @@
+body { 
+    font-family:  Helvetica, Arial, sans-serif; 
+    font-size:    15.3; 
+    color:      #FFF; 
+    margin:     0;
+    padding:    0;
+    padding-bottom: 50px; 
+  }
+  
+form { 
+    width:    410px; 
+    background: #93A299;
+    background: rgba(105,0,17,0.7); 
+    padding:  20px 30px; 
+    margin:   0 auto; 
+    color:    #fff;
+    overflow:   hidden;
+    -moz-border-radius:   20px; 
+    -webkit-border-radius:  20px; 
+    border-radius:      20px;  
+    -moz-box-shadow:  0px 0px 10px #93A299;
+    -webkit-box-shadow: 0px 0px 10px #93A299;
+    -ms-box-shadow: 0px 0px 10px #93A299;
+    box-shadow: 0px 0px 10px #93A299;
+  }
+  
+label { 
+    position: relative;
+    clear:    both; 
+    display:  block; 
+    text-shadow: 0px -1px 0px #000; 
+    text-shadow: 0 -1px rgba(0,0,0,0.5);  
+    font-family: "kaffeesatz-1","kaffeesatz-2",sans-serif; 
+  }
+  
+  sup { color: #ccc; }
+  
+input { 
+    font-size:      1.8em; 
+    margin-bottom:    25px;
+    border:       2px solid #690011; 
+    padding:      8px; 
+    background:     #fff; 
+    color:        #696969; 
+    width:        385px;  
+    -webkit-box-shadow: inset 0px 2px 2px rgba(0,0,0,0.2); 
+    -moz-box-shadow:  inset 0px 2px 2px rgba(0,0,0,0.2); 
+    -ms-box-shadow:   inset 0px 2px 2px rgba(0,0,0,0.2); 
+    box-shadow:     inset 0px 2px 2px rgba(0,0,0,0.2); 
+  }
+  
+  input:focus { 
+    border:       2px solid #33c400; 
+    -webkit-box-shadow: none; 
+    -moz-box-shadow:  none; 
+    box-shadow:     none; 
+  }
+  
+  input[type=date],
+  input[type=number],
+  input[type=submit] { 
+    -moz-border-radius:  0px; 
+    -webkit-border-radius:  0px; 
+    border-radius:      0px; 
+    width:        auto; 
+  }
+  
+  input:invalid { background: #efdee0 url(../img/invalid.png) no-repeat center right; }
+  input:valid { background: #f3f8ed url(../img/valid.png) no-repeat center right; }
+  
+  
+  button { 
+    background:     #F2D99C; 
+    display:      inline-block; 
+    padding:      5px 10px 6px; 
+    color:        #690011; 
+    text-decoration:  none; 
+    font-weight:    bold;  
+    border:       none; 
+    position:       relative; 
+    cursor:       pointer; 
+    font-size:      2.0em; 
+    margin-top:     30px;
+    font-family:    'Oleo Script', Helvetica, Arial;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    -ms-border-radius:  5px; 
+    border-radius:    5px; 
+    -moz-box-shadow:  0 1px 3px #999; 
+    -webkit-box-shadow: 0 1px 3px #999; 
+    -ms-box-shadow:   0 1px 3px #999; 
+    box-shadow:     0 1px 3px #999; 
+    text-shadow:    0 -1px 1px #fff;    
+    -webkit-transition: all 0.2s linear
+  }
+  
+  
+  button:hover  { 
+    background-color:   #E5B96F;
+    -webkit-transform:  scale(1.1); 
+    -moz-box-shadow:  0 1px 6px #000; 
+    -webkit-box-shadow: 0 1px 6px #000; 
+    box-shadow:     0 1px 6px #000; 
+  }
+  
+  .legal { 
+    clear:        both;
+    font-size:      5px; 
+    margin:       15px 0; 
+    color:        #fff; 
+    text-shadow:    0px -1px 0px #000; 
+    text-shadow:    0 -1px rgba(0,0,0,0.5); 
+  }
+  
+  .centerit {
+    text-align:     center;
+  }

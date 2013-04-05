@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Member Add</title>
+  </head>
+  <body>
+    <element name="member-form" extends="span">
+      <template> 
+
+        <div class="member_form">
+          
+        <form>
+          <label for="firstName">First Name <sup>*</sup></label>
+          <input id="firstName" type="text"  placeholder="First Name"/>
+          
+          <label for="lastName">Last Name <sup>*</sup></label>
+          <input id="lastName" type="text"  placeholder="Last Name"/>
+          
+          <label for="address">Address <sup>*</sup></label>
+          <input id="address" type="text"  placeholder="Address"/>
+          
+          <br/>
+          <button on-click="add()">Add</button>
+          <label id="message"></label>
+        </form>
+        </div>
+      </template>
+      <script type="application/dart" src="member_form.dart"></script>
+    </element>
+  </body>
+</html>

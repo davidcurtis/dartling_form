@@ -1,0 +1,12 @@
+name: dartling_form
+version: 0.0.1
+author: David Curtis
+description: dartling_form application that uses dartling for its model.
+homepage: http://ondart.me/
+dependencies:
+  browser: any
+  web_ui: any
+  dartling_list_generator:
+    git: git://github.com/davidcurtis/dartling_list_generator.git
+  dartling:
+    git: git://github.com/dzenanr/dartling.git
