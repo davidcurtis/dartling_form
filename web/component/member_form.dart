@@ -7,8 +7,8 @@ class MemberForm extends WebComponent {
   Members members;
 
   add() {
-    InputElement firstname = query("#firstname");
-    InputElement lastname = query("#lastname");
+    InputElement firstname = query("#firstName");
+    InputElement lastname = query("#lastName");
     InputElement address = query("#address");
     LabelElement message = query("#message");
     
@@ -35,7 +35,6 @@ class MemberForm extends WebComponent {
       
       if (members.add(member)) {
         message.text = 'added';
-        members.order();
       } else {
         message.text = 'code already in use';
       }
