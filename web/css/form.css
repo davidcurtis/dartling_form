@@ -1,30 +1,38 @@
-body { 
+  body { 
     font-family:  Helvetica, Arial, sans-serif; 
-    font-size:    15.3; 
+    font-size:    62.5; 
     color:      #FFF; 
     margin:     0;
     padding:    0;
     padding-bottom: 50px; 
   }
+.clear { clear: both; }
+
+header h1 {
+    margin: 0;
+    padding-top:50px;
+    text-align: center;
+    font-family: 'Oleo Script', arial;
+    color:    #F2D99C;
+    font-size:  4em;
+    text-shadow: 2px 2px 4px #690011;
+    text-shadow: 2px 2px 4px rgba(105,0,17,0.7);
+  }
   
-form { 
+ form { 
     width:    410px; 
-    background: #93A299;
-    background: rgba(105,0,17,0.7); 
+    background: #C0BFA9;
     padding:  20px 30px; 
     margin:   0 auto; 
     color:    #fff;
     overflow:   hidden;
-    -moz-border-radius:   20px; 
-    -webkit-border-radius:  20px; 
-    border-radius:      20px;  
-    -moz-box-shadow:  0px 0px 10px #93A299;
-    -webkit-box-shadow: 0px 0px 10px #93A299;
-    -ms-box-shadow: 0px 0px 10px #93A299;
-    box-shadow: 0px 0px 10px #93A299;
+    -moz-box-shadow:  0px 0px 10px #C0BFA9;
+    -webkit-box-shadow: 0px 0px 10px #C0BFA9;
+    -ms-box-shadow: 0px 0px 10px #C0BFA9;
+    box-shadow: 0px 0px 10px #C0BFA9;
+
   }
-  
-label { 
+  label { 
     position: relative;
     clear:    both; 
     display:  block; 
@@ -33,10 +41,8 @@ label {
     font-family: "kaffeesatz-1","kaffeesatz-2",sans-serif; 
   }
   
-  sup { color: #ccc; }
-  
-input { 
-    font-size:      1.8em; 
+  input { 
+    font-size:      1em; 
     margin-bottom:    25px;
     border:       2px solid #690011; 
     padding:      8px; 
@@ -50,24 +56,11 @@ input {
   }
   
   input:focus { 
-    border:       2px solid #33c400; 
+    border:       2px solid #A7A37E; 
     -webkit-box-shadow: none; 
     -moz-box-shadow:  none; 
     box-shadow:     none; 
   }
-  
-  input[type=date],
-  input[type=number],
-  input[type=submit] { 
-    -moz-border-radius:  0px; 
-    -webkit-border-radius:  0px; 
-    border-radius:      0px; 
-    width:        auto; 
-  }
-  
-  input:invalid { background: #efdee0 url(../img/invalid.png) no-repeat center right; }
-  input:valid { background: #f3f8ed url(../img/valid.png) no-repeat center right; }
-  
   
   button { 
     background:     #F2D99C; 
@@ -94,24 +87,3 @@ input {
     -webkit-transition: all 0.2s linear
   }
   
-  
-  button:hover  { 
-    background-color:   #E5B96F;
-    -webkit-transform:  scale(1.1); 
-    -moz-box-shadow:  0 1px 6px #000; 
-    -webkit-box-shadow: 0 1px 6px #000; 
-    box-shadow:     0 1px 6px #000; 
-  }
-  
-  .legal { 
-    clear:        both;
-    font-size:      5px; 
-    margin:       15px 0; 
-    color:        #fff; 
-    text-shadow:    0px -1px 0px #000; 
-    text-shadow:    0 -1px rgba(0,0,0,0.5); 
-  }
-  
-  .centerit {
-    text-align:     center;
-  }
